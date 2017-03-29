@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{4E7F170D-8727-45D1-ADFB-802C93112072}|Default">
+  <MonoDevelop.Ide.ItemProperties.Assignment4 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment4/Dice.cs">
+    <Files>
+      <File FileName="Assignment4/Program.cs" Line="10" Column="4" />
+      <File FileName="Assignment4/Dice.cs" Line="8" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
