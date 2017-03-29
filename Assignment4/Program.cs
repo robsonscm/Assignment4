@@ -13,11 +13,43 @@ namespace Assignment4
 
 			Dice d1 = new Dice();
 
-			for (int i = 0; i < 50; i++)
+			uint[] numbers = new uint[6];
+
+			for (int i = 0; i < 1000000; i++)
 			{
-				d1.Roll();
-				d1.Draw();
+				switch (d1.Roll())
+				{
+					case 1:
+						numbers[0]++;
+						break;
+					case 2:
+						numbers[1]++;
+						break;
+					case 3:
+						numbers[2]++;
+						break;
+					case 4:
+						numbers[3]++;
+						break;
+					case 5:
+						numbers[4]++;
+						break;
+					case 6:
+						numbers[5]++;
+						break;
+					default:
+						Console.WriteLine("DICE NUMBER HAS AN ERROR!!!");
+						break;
+				}
 			}
+			short side = 0;
+			foreach (uint n in numbers)
+			{
+				side++;
+				Console.WriteLine("Side " + side + " got "+ n + " times! \n");
+			}
+			//d1.Draw();
+
 		}
 	}
 }
